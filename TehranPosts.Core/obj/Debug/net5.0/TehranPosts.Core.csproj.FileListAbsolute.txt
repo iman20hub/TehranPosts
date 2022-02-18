@@ -1,0 +1,15 @@
+D:\AspNetCore_Source\TehranPosts\TehranPosts.Core\bin\Debug\net5.0\TehranPosts.Core.deps.json
+D:\AspNetCore_Source\TehranPosts\TehranPosts.Core\bin\Debug\net5.0\TehranPosts.Core.dll
+D:\AspNetCore_Source\TehranPosts\TehranPosts.Core\bin\Debug\net5.0\ref\TehranPosts.Core.dll
+D:\AspNetCore_Source\TehranPosts\TehranPosts.Core\bin\Debug\net5.0\TehranPosts.Core.pdb
+D:\AspNetCore_Source\TehranPosts\TehranPosts.Core\bin\Debug\net5.0\TehranPosts.Domain.dll
+D:\AspNetCore_Source\TehranPosts\TehranPosts.Core\bin\Debug\net5.0\TehranPosts.Domain.pdb
+D:\AspNetCore_Source\TehranPosts\TehranPosts.Core\obj\Debug\net5.0\TehranPosts.Core.csproj.AssemblyReference.cache
+D:\AspNetCore_Source\TehranPosts\TehranPosts.Core\obj\Debug\net5.0\TehranPosts.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\AspNetCore_Source\TehranPosts\TehranPosts.Core\obj\Debug\net5.0\TehranPosts.Core.AssemblyInfoInputs.cache
+D:\AspNetCore_Source\TehranPosts\TehranPosts.Core\obj\Debug\net5.0\TehranPosts.Core.AssemblyInfo.cs
+D:\AspNetCore_Source\TehranPosts\TehranPosts.Core\obj\Debug\net5.0\TehranPosts.Core.csproj.CoreCompileInputs.cache
+D:\AspNetCore_Source\TehranPosts\TehranPosts.Core\obj\Debug\net5.0\TehranPosts.Core.csproj.CopyComplete
+D:\AspNetCore_Source\TehranPosts\TehranPosts.Core\obj\Debug\net5.0\TehranPosts.Core.dll
+D:\AspNetCore_Source\TehranPosts\TehranPosts.Core\obj\Debug\net5.0\ref\TehranPosts.Core.dll
+D:\AspNetCore_Source\TehranPosts\TehranPosts.Core\obj\Debug\net5.0\TehranPosts.Core.pdb

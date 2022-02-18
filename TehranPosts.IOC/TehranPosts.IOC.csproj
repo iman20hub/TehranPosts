@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\TehranPosts.Domain\TehranPosts.Domain.csproj" />
+    <ProjectReference Include="..\TehranPosts.Data\TehranPosts.Data.csproj" />
+    <ProjectReference Include="..\TehranPosts.Core\TehranPosts.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

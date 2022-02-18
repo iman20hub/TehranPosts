@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TehranPosts.Core/1.0.0": {
+        "dependencies": {
+          "TehranPosts.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TehranPosts.Core.dll": {}
+        }
+      },
+      "TehranPosts.Domain/1.0.0": {
+        "runtime": {
+          "TehranPosts.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TehranPosts.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TehranPosts.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
