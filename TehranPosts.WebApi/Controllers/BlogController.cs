@@ -15,17 +15,26 @@ namespace TehranPosts.WebApi.Controllers
     {
         private readonly ILogger<WeatherForecastController> _logger;
         private readonly IBlogService _blogService;
+        private readonly IBaseServiceAsync<Blog> _blogServiceAsync;
 
-        public BlogController(ILogger<WeatherForecastController> logger, IBlogService blogService)
+        public BlogController(ILogger<WeatherForecastController> logger, IBlogService blogService, IBaseServiceAsync<Blog> blogServiceAsync)
         {
             _logger = logger;
             _blogService = blogService;
+            _blogServiceAsync = blogServiceAsync;
         }
 
         [HttpGet]
         public IEnumerable<Blog> Get()
         {
             return _blogService.GetAll();
+        }
+
+        [HttpGet]
+        [Route("GetAsync")]
+        public async Task<IEnumerable<Blog>> GetAsync()
+        {
+            return await _blogServiceAsync.GetAll();
         }
     }
 }

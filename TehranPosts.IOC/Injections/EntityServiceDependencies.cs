@@ -12,7 +12,8 @@ namespace TehranPosts.IOC.Injections
         public static void RegisterEntityServiceDependencies(this IServiceCollection services)
         {
             services.AddTransient(typeof(IBaseRepository<>), typeof(BaseRepository<>));
-            // services.AddTransient(typeof(IBaseRepositoryAsync<>), typeof(BaseRepository<>));
+            services.AddTransient(typeof(IBaseRepositoryAsync<>), typeof(BaseRepository<>));
+            services.AddTransient(typeof(IBaseServiceAsync<>), typeof(BaseServiceAsync<>));
             services.AddTransient<IUserService, UserService>();
             services.AddTransient<IPostService, PostService>();
             services.AddTransient<IBlogService, BlogService>();

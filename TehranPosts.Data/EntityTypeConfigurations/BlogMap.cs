@@ -14,6 +14,7 @@ namespace TehranPosts.Data.EntityTypeConfigurations
             builder.HasKey(o => o.Id);
             builder.Property(t => t.Title).IsRequired().HasMaxLength(20);
             builder.HasOne(p => p.User).WithOne(o => o.blog).HasForeignKey<Blog>(x => x.OwnerUserId).IsRequired(false);
+            builder.Property(t => t.CreateDate).IsRequired(false);
         }
     }
 }

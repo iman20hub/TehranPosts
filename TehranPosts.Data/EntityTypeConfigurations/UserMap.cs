@@ -15,6 +15,7 @@ namespace TehranPosts.Data.EntityTypeConfigurations
             builder.Property(t => t.LastName).HasColumnName("LName");
             builder.Property(t => t.LastName).IsRequired().HasMaxLength(20);
             builder.Property(t => t.FirstName).HasColumnName("FName");
+            builder.Property(t => t.birthDate).IsRequired();
             // builder.HasOne(d => d.blog).WithOne(p => p.User).IsRequired(false);
         }
     }
